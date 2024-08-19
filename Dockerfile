@@ -16,7 +16,7 @@ RUN cd /code && \
     apk del maven && \
     rm -r /code
 
-EXPOSE 8761
+EXPOSE 30180
 
 WORKDIR /opt/app
 
