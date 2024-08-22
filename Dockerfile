@@ -20,4 +20,4 @@ EXPOSE 30180
 
 WORKDIR /opt/app
 
-CMD java -Xms150m -Xmx250m -jar eureka-server-0.0.1-SNAPSHOT.jar
+CMD java -jar eureka-server-0.0.1-SNAPSHOT.jar
